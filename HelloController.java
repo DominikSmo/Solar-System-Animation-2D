@@ -67,7 +67,7 @@ public class HelloController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
 
 
-        rotateTransition = new RotateTransition(Duration.seconds(10), sun); // Here we se the sun
+        rotateTransition = new RotateTransition(Duration.seconds(10), sun); // Here we set the sun
         rotateTransition.setFromAngle(0);
         rotateTransition.setToAngle(360);
         rotateTransition.setAutoReverse(false);
